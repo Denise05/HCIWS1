@@ -8,7 +8,7 @@
     <script src="scripts/main.js" defer></script>
   </head>
   <body>
-    <a-scene background="color: green">
+    <a-scene background="color: #333333">
       <a-assets>
           <img id="wood" src="images/wood.jpg" />
           <img id="wood2" src="images/wood2.jpg" />
@@ -25,7 +25,7 @@
         animation="property: rotation; 
                    to: 90 360 180; 
                    dur: 2000; 
-                   easing: linear; 
+                   easing: easeInCubic; 
                    loop: true" >
       </a-box>
       <a-box id="myOtherBox" 
