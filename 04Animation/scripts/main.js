@@ -12,20 +12,7 @@
 
  setInterval(spin, 16); //equivalent to 60 fps
 
-from: ({
-	scale: .7,
-	opacity: 0;
-	y: 0
-},
-
-to: {
-	scale: 1,
-	opacity: 1,
-	y: 0
-},
-duration: 1000
-}).start(container.set)
-
+ 
 
 
 
